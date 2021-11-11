@@ -394,7 +394,7 @@ class AppleStoreMonitor:
                     last_exactly_time = tm_hour
                 time.sleep(interval)
             else:
-                time.sleep(5)
+                time.sleep(scan_interval)
 
             # 次数自增
             self.count += 1
